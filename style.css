@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: yellow;
+    position: relative;
+}
+.box-1 {
+    display: flex;
+    background-color: white;
+    height:100px;
+    width: 400px;
+
+}
+.box-2 {
+    display: flex;
+    background-color: blue;
+    height:100px;
+    width: 400px;
+    
+}
+.box-3 {
+    display: flex;
+    background-color: red;
+    height:100px;
+    width: 400px;
+    position: relative;    
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+.image {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 100px;
+    bottom: 0px;
+    
+}
